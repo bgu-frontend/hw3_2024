@@ -165,7 +165,12 @@ Read and use the following error codes: [HTTP response status codes](https://dev
 In addition to hw2 codes (see "backend error handling - reminder from hw2"):
 1. 401: Unauthorized: user is unknown, and needs to authenticate to get a response, or incorrect credentials.
 2. 403: Forbidden: user is known, and does not have access rights to the content.
-
+## Implementation - backend logging:
+1. The logger should still log to "log.txt" as before, the:
+    1. time
+    2. HTTP request method. (e.g, "GET")
+    3. request target path ("/notes")
+    4. request body.
 
 ### The tester will:
 1. `git clone <your_submitted_github_repo>`
