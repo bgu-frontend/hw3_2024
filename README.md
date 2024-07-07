@@ -84,6 +84,7 @@ In order for next.js "build" to work correctly, the folder structure should be u
 Notice: this is only the frontend. The backend which uses express stays the same. (It could be added into the next.js project, but here we use it externally.)
 
 One option:
+```
 src
 ├── components
 ├── consts.tsx
@@ -92,7 +93,7 @@ src
 ├── pages 
 │   └── index.tsx
 └── utils
-
+```
 index.tsx is a "page" in next.js terms, and contains the top most compononet called App: don't put other compononets under pages directory, move them to components instead.
 To check that it works in dev mode, use `npm run dev`.
 To check that it works in test mode, use `npm run build` (checks structure, typescript syntax, and prepares SSR), and then `npm run start`. We won't test for typescript syntax errors in `npm run build`.
