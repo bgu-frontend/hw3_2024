@@ -133,7 +133,7 @@ export async function getStaticProps() {
             1. It's ok to have 5 fetches of 10 notes each, instead of one fetch of 50 notes.
 
 ## Playwright requirements- hw3
-1. Submit 5 Playwright e2e tests.
+1. Submit 5 Playwright e2e tests under the "test" folder (parallel to "src" folder). They should pass with `npx playwright test`.
 https://nextjs.org/docs/pages/building-your-application/testing/playwright
 
 ## Frontend test requirements- hw3
