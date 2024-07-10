@@ -80,7 +80,7 @@ Recommendation about using an AI assistant: You can ask questions and read the a
 We need to store the password hashes, we'll use MongoDB to be aligned with full-stack open examples. (https://fullstackopen.com/en/part4/.)
 
 ## Supporting next.js folder structure
-For the next.js "build" to work correctly, the folder structure should be updated. (https://nextjs.org/docs/getting-started/project-structure)
+For the next.js "build" to work correctly, the folder structure should be updated. (https://nextjs.org/docs/getting-started/project-structure#pages-routing-conventions)
 Notice: This is only the front end. The backend which uses express stays the same. (It could be added to the next.js project, but here we use it externally.)
 
 One option:
