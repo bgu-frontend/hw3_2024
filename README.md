@@ -45,7 +45,7 @@ Recommendation about using an AI assistant: You can ask questions and read the a
     2. use the backend middleware logger, console logs, and possibly more loggers, to see what's happening. It is sometimes printed to the vs.code console, and sometimes to Chrome's console.
 2. Like before, progress in small steps, and commit when the code is stable with meaningful commit messages. You can choose to commit only some files that have changed.
 3. Implementation steps:
-    1. Move the frontend to a next.js structure.
+    1. Move the frontend to a next.js structure, so it can pass `npm run build`.
     2. Add Playwright testing library.(tests are under the tests library, see the example Playwright adds to your project)
     3. Write a single test: for example, log in a user/ verify that a logged-out user can't add new notes, this test should fail.
     4. Add the necessary code/schemas/mongo data to pass this test.
