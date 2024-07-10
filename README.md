@@ -143,7 +143,6 @@ https://nextjs.org/docs/pages/building-your-application/testing/playwright
     3. field text: `Username`, HTML name attribute **"create_user_form_username"**.
     4. field text: `Password`,  html name attribute **"create_user_form_password"**.
     5. button text: `Create User`,  html name attribute **"create_user_form_create_user"**.
-    6. button text: `Cancel`, HTML name attribute **"create_user_form_cancel"**.
 2. Login form: The homepage will contain a login form with html name attribute **"login_form"**:
     1. field text: `Username`, HTML name attribute **"login_form_username"**.
     2. field text: `Password`,  html name attribute **"login_form_password"**.
