@@ -174,13 +174,12 @@ In addition to HW2 codes (see "backend error handling - reminder from HW2"):
 1. `git clone <your_submitted_github_repo>`
 2. `cd <cloned_dir>`
 3. `git checkout a3`
-4. `npm install` from the `frontend` dir (package.json should exist)
-5. `npm run build && npm run start` from the `frontend` dir  (configured to default port 3000). The build/start enables static server-side generation.
-6. Copy a `.env` file into the `backend` and 'frontend' dir.
-7. `npm install` from the `backend` dir (package.json should exist)
-8. `node index.js` from the `backend` dir (configured to default port 3001)
-9. run your tests: `npx playwright test`, and check they all pass.
-10. Run tests based on 'test requirements hw3'.
+4. `npm install` from the `frontend` dir and `backend` dir (a package.json file should exist in both)
+5. Copy a `.env` file into the `backend` and 'frontend' dir.
+6. `node index.js` from the `backend` dir (configured to default port 3001). 
+7. `npm run build && npm run start` from the `frontend` dir  (configured to default port 3000). The build/start enables static server-side generation.
+8. run your tests: `npx playwright test`, and check they all pass.
+9. Run tests based on 'test requirements hw3'.
 
 
 ### Tips - Test-Driven Development 
