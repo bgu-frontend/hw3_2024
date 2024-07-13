@@ -37,7 +37,7 @@ Recommendation about using an AI assistant: You can ask questions and read the a
 1. Read about user administration and authentication at https://fullstackopen.com/en/part4/.
 2. Read about Bcrypt format: https://en.wikipedia.org/wiki/Bcrypt.
 3. Read about JSON Web Token: https://jwt.io/introduction.
-4. Read about testing using Playwright at: https://fullstackopen.com/en/part5/end_to_end_testing_playwright#playwright
+4. Read about testing using Playwright at: https://fullstackopen.com/en/part5/end_to_end_testing_playwright#playwright, https://playwright.dev/docs/writing-tests
 
 ### Suggestions:
 1. Often, errors are lost between try/catch blocks, frontend/backend communication and async functions do not print to the console.
@@ -138,7 +138,7 @@ In react, implement the following caching mechanism:
 
 
     And they should pass the `npx playwright test`.
-https://nextjs.org/docs/pages/building-your-application/testing/playwright
+https://nextjs.org/docs/pages/building-your-application/testing/playwright, https://playwright.dev/docs/writing-tests
 
 ## Frontend test requirements- hw3
 ### naming
