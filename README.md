@@ -132,7 +132,12 @@ In react, implement the following caching mechanism:
         1. It's ok to have 5 fetches of 10 notes each, instead of one fetch of 50 notes; it's ok to use the existing 10-notes fetching API.
 
 ## Playwright requirements- hw3
-1. Submit 5 Playwright e2e tests under the "test" folder (parallel to the "src" folder). They should pass the `npx playwright test`.
+1. Submit 5 Playwright e2e tests under the "test" folder (parallel to the "src" folder), in the following format:
+
+   `test('...', () => {...})`
+
+
+    And they should pass the `npx playwright test`.
 https://nextjs.org/docs/pages/building-your-application/testing/playwright
 
 ## Frontend test requirements- hw3
