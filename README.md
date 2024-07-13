@@ -139,7 +139,7 @@ In react, implement the following caching mechanism:
 
     And they should pass the `npx playwright test`.
 https://nextjs.org/docs/pages/building-your-application/testing/playwright, https://playwright.dev/docs/writing-tests
-
+Assume the tests run on an empty database.
 ## Frontend test requirements- hw3
 ### naming
 1. Create User form: The homepage will contain a create user form with HTML name attribute **"create_user_form"**:
