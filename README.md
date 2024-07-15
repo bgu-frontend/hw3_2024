@@ -46,7 +46,7 @@ Recommendation about using an AI assistant: You can ask questions and read the a
 2. Like before, progress in small steps, and commit when the code is stable with meaningful commit messages. You can choose to commit only some files that have changed.
 3. Implementation steps:
     1. Move the frontend to a next.js structure, so it can pass `npm run build`.
-    2. Add Playwright testing library.(tests are under the tests library, see the example Playwright adds to your project)
+    2. Add Playwright testing library to your frontent project.(tests are under the tests library, see the example Playwright adds to your project)
     3. Write a single test: for example, log in a user/ verify that a logged-out user can't add new notes, this test should fail.
     4. Add the necessary code/schemas/mongo data to pass this test.
     5. add another test that fails, 
@@ -183,7 +183,7 @@ In addition to HW2 codes (see "backend error handling - reminder from HW2"):
 5. Copy a `.env` file into the `backend` and 'frontend' dir.
 6. `node index.js` from the `backend` dir (configured to default port 3001). 
 7. `npm run build && npm run start` from the `frontend` dir  (configured to default port 3000). The build/start enables static server-side generation.
-8. run your tests: `npx playwright test`, and check they all pass.
+8. run your tests from the frontend dir: `npx playwright test`, and check they all pass.
 9. Run tests based on 'test requirements hw3'.
 
 
