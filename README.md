@@ -151,7 +151,8 @@ Assume the tests run on an empty database.
 2. Login form: The homepage will contain a login form with html name attribute **"login_form"**:
     1. field text: `Username`, HTML name attribute **"login_form_username"**.
     2. field text: `Password`,  html name attribute **"login_form_password"**.
-    3. Like in Full Stack Open, part 4, the accepted token will be saved in a React state and sent as an 'Authorization' header on the following API requests.
+    3. field text: `Login`,  html name attribute **"login_form_login"**.
+    4. Like in Full Stack Open, part 4, the accepted token will be saved in a React state and sent as an 'Authorization' header on the following API requests.
         1. comment: it's considered less secure to have the javascript access the token. It's good enough for this exercise.
 3. Logout button: The homepage will contain a logout button with html name attribute **"logout"**. The logout will delete the token from the state.
     1. Comment: it should also be added to a blacklist on the server, so it won't be used later. In this exercise, we won't use blacklist. 
