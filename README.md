@@ -130,6 +130,9 @@ In react, implement the following caching mechanism:
     1. If the current page is in the cache, it will be loaded from there.
     2. Regardless if it was loaded from the cache or not, in the background, using an async function, we will update the cache as needed: for example, when moving from page 5 to 6, only one page should be fetched.
         1. It's ok to have 5 fetches of 10 notes each, instead of one fetch of 50 notes; it's ok to use the existing 10-notes fetching API.
+4. Examples:
+    1. The first page should be in the cache after build, and not be brought when the user first enters the website.
+    2. Moving from page 1 to 2 should not fetch new data to the cache.
 
 ## Playwright requirements- hw3
 1. Submit 5 Playwright e2e tests under the "test" folder (parallel to the "src" folder), in the following format:
@@ -151,7 +154,7 @@ Assume the tests run on an empty database.
 2. Login form: The homepage will contain a login form with html name attribute **"login_form"**:
     1. field text: `Username`, HTML name attribute **"login_form_username"**.
     2. field text: `Password`,  html name attribute **"login_form_password"**.
-    3. field text: `Login`,  html name attribute **"login_form_login"**.
+    3. button text: `Login`,  html name attribute **"login_form_login"**.
     4. Like in Full Stack Open, part 4, the accepted token will be saved in a React state and sent as an 'Authorization' header on the following API requests.
         1. comment: it's considered less secure to have the javascript access the token. It's good enough for this exercise.
 3. Logout button: The homepage will contain a logout button with html name attribute **"logout"**. The logout will delete the token from the state.
@@ -228,7 +231,8 @@ In addition to HW2 codes (see "backend error handling - reminder from HW2"):
         2. It should be editable
         3. with name **"text_input-<note_id>"**
         4. with "save" button **"text_input_save-<note_id>"**
-        5. with "cancel" button **"text_input_cancel-<note_id>"**
+            1. On click, the default values which are not the content, should match the "Note" scheme, so a click will save the new note to Mongo without issues.
+        6. with "cancel" button **"text_input_cancel-<note_id>"**
 
 3. Delete button:
     1. name **"delete-<note_id>"** [html name attributes](https://www.w3schools.com/tags/att_name.asp). For example, "delete-1".
