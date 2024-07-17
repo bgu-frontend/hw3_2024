@@ -231,7 +231,7 @@ In addition to HW2 codes (see "backend error handling - reminder from HW2"):
         2. It should be editable
         3. with name **"text_input-<note_id>"**
         4. with "save" button **"text_input_save-<note_id>"**
-            1. On click, the default values which are not the content, should match the "Note" scheme, so a click will save the new note to Mongo without issues.
+            1. On click, the default values which are not the content, should match the "Note" schema, so a click will save the new note to Mongo without issues.
         6. with "cancel" button **"text_input_cancel-<note_id>"**
 
 3. Delete button:
