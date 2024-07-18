@@ -186,7 +186,7 @@ In addition to HW2 codes (see "backend error handling - reminder from HW2"):
 4. `npm install` from the `frontend` dir and `backend` dir (a package.json file should exist in both)
 5. Copy a `.env` file into the `backend` and 'frontend' dir.
 6. `node index.js` from the `backend` dir (configured to default port 3001).
-7. run your tests from the `frontend` dir: `npx playwright test`, and check they all pass. (It starts the frontend using `npm run dev`, configurable in frontend/playwright.config.ts).
+7. run your tests from the `frontend` dir: `npx playwright test`, and check they all pass. (It starts the next.js server using `npm run dev`, configurable in frontend/playwright.config.ts).
 8. `npm run build && npm run start` from the `frontend` dir  (configured to default port 3000). The build/start enables static server-side generation.
 9. Run tests (our tests) based on 'test requirements hw3'.
 
