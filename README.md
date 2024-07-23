@@ -147,13 +147,13 @@ Run the tests Sequentially, to prevent read-write race conditions:
 https://playwright.dev/docs/test-parallel#disable-parallelism
 ## Frontend test requirements- hw3
 ### naming
-1. Create User form: The homepage will contain a create user form with HTML name attribute **"create_user_form"**:
+1. Create User form: The homepage will contain a create user form with HTML name attribute **"create_user_form"**: (Directly in the home page)
     1. field text: `Name`,  html name attribute **"create_user_form_name"**.
     2. field text: `Email`, HTML name attribute **"create_user_form_email"**. Email doesn't need to be verified.
     3. field text: `Username`, HTML name attribute **"create_user_form_username"**.
     4. field text: `Password`,  html name attribute **"create_user_form_password"**.
     5. button text: `Create User`,  html name attribute **"create_user_form_create_user"**.
-2. Login form: The homepage will contain a login form with html name attribute **"login_form"**:
+2. Login form: The homepage will contain a login form with html name attribute **"login_form"**: (Directly in the home page)
     1. field text: `Username`, HTML name attribute **"login_form_username"**.
     2. field text: `Password`,  html name attribute **"login_form_password"**.
     3. button text: `Login`,  html name attribute **"login_form_login"**.
@@ -162,6 +162,7 @@ https://playwright.dev/docs/test-parallel#disable-parallelism
 3. Logout button: The homepage will contain a logout button with html name attribute **"logout"**. The logout will delete the token from the state.
     1. Comment: it should also be added to a blacklist on the server, so it won't be used later. In this exercise, we won't use blacklist. 
 4. Add a new note for a logged-in user, should have the correct name and the email in the note.
+   
 
 
 ## Backend test requirements- hw3
